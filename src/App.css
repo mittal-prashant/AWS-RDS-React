@@ -1,0 +1,140 @@
+.app-container {
+  background-color: #111111;
+  color: white;
+}
+
+.header {
+  display: flex;
+  background: linear-gradient(#222222, #111111);
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.header-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-title {
+  margin-left: 50px;
+}
+
+.slider-container {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  background: linear-gradient(#111111, #222222);
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.footer-text {
+  margin-left: 200px;
+  flex: 1;
+  text-align: center;
+}
+
+.footer-icons {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card {
+  background-color: #111111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  font-size: larger;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.neon-color {
+  background-color: #00ff00;
+}
+
+.form {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  align-items: center;
+}
+
+label {
+  color: black;
+  width: 200px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input {
+  flex: 1;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border-color: black;
+  border-width: 0.1px;
+}
+
+select {
+  flex: 1;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border-color: black;
+  border-width: 0.1px;
+}
+
+button {
+  width: 100px;
+  padding: 8px;
+  margin: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #00ff00;
+  color: white;
+  cursor: pointer;
+}
