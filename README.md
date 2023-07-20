@@ -49,3 +49,10 @@
 1. The app has to be created using React or a single page using HTML, CSS and JS. There was ambiguity in the question, React was also written.
 2. If data for card has to be fetched, if yes, it can be added easily, taking the data from RDS using Lambda function and passing to the SQS Queue which sends the message to GET method in API Gateway and easily integrated in React app.
 3. If app is to be hosted on Cloudfront, and how to host the React app, index.html will not alone work.
+
+---
+
+##### Reference:
+
+1. https://docs.aws.amazon.com/lambda/latest/dg/services-rds-tutorial.html
+2. https://medium.com/@pranaysankpal/aws-api-gateway-proxy-for-sqs-simple-queue-service-5b08fe18ce50
